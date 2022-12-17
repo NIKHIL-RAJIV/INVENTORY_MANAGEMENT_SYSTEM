@@ -1,29 +1,34 @@
-# INVENTORY_MANAGEMENT_SYSTEM
-(class 12 project) 
-#note: 
-1)only compatible with windows!
-2)the installer.pyw module is not part of the project! it exists only to setup the tables and create a user in the mysql and to download(?) the programs and images needed for it
+# INVENTORY MANAGEMENT SYSTEM
+# Note:
+<p>
+1. Only compatible with windows!<br>
+2. The installer.pyw module is not part of the project! it exists only to setup the tables and create a user in the mysql and to download(?) the programs and images needed for it
+</p>
 
-#requirements: 
-1)pillow module (pip install pillow)
+# Requirements:
 
-#flow of execution of code 
-1)first run the installer.pyw program 
-2)enter your mysql credentials and proceed 
-3)close the window after(only after) getting a prompt that all tables and user have been created succesfully
+1)Pillow module (pip install pillow)
 
-in the background , the program creates all the neccesary database and tables and creates a new user with username admin and password bav. after closing the window , the program creates and extracts and then deletes two zipfiles which had stored all the images and the programs. (these zipfiles were stored within two corresponding variables within the program itself)
+# Flow of execution of code :
+<p>
+1. First run the installer.pyw program <br>
+2. Enter your mysql credentials and proceed <br>
+3. Close the window after(only after) getting a prompt that all tables and user have been created succesfully <br>
 
-4)run the main.pyw and enter the username and password
+In the background , the program creates all the neccesary database and tables and creates a new user with username admin and password bav. after closing the window , the program creates and extracts and then deletes two zipfiles which had stored all the images and the programs. (these zipfiles were stored within two corresponding variables within the program itself)
 
-usernames and passwords: there are 3 types of users, 
-i)employee , ii)admin, iii)developer
+4. Run the main.pyw and enter the username and password
+</p>
+<p>Usernames and Passwords: there are 3 types of users<br>
+<ol>
+<li>Employee <br></li><li>Admin <br></li><li>Developer</li>
+</ol>
+</p>
+<p>
+1. Employee: <br>Username = first name of any student of 12 A (except aditya , nikhil & indrajith) <br>   Password = 'emp123' <br>
+2. Admin: <br>(username , password) = [('indrani vinod','admin123'),('adithya s','adithya123'),('nikhil rajiv','thor@123'),('indrajith lal','indrajith69420')] <br>
+3. Developer: <br>Same as of admins! <br>
+</p>
 
-1)employee: username = first name of any student of 12 A (except aditya , nikhil & indrajith) password = 'emp123'
-
-2)admin: (username , password) = [('indrani vinod','admin123'),('adithya s','adithya123'),('nikhil rajiv','thor@123'),('indrajith lal','indrajith69420')]
-
-3)developer: same as of admins!
-
-everything from here is self-explanatory!
+Everything from here is self-explanatory!
 
