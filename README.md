@@ -15,6 +15,8 @@
 2. Enter your mysql credentials and proceed <br>
 3. Close the window after(only after) getting a prompt that all tables and user have been created succesfully <br>
 
+
+
 In the background , the program creates all the neccesary database and tables and creates a new user with username admin and password bav. after closing the window , the program creates and extracts and then deletes two zipfiles which had stored all the images and the programs. (these zipfiles were stored within two corresponding variables within the program itself)
 
 4. Run the main.pyw and enter the username and password
